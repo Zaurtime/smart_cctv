@@ -8,7 +8,7 @@
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
                 <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
                 <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Cameras</a>
+                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
 
@@ -20,7 +20,7 @@
                 <a href="{% url 'products' %}?category=outdoor" class="dropdown-item">Outdoor Camera &amp; CCTV</a>
                 <a href="{% url 'products' %}?category=indoor" class="dropdown-item">Indoor Camera</a>
                 <a href="{% url 'products' %}?category=doorbell" class="dropdown-item">Doorbell Camera</a>
-                <a href="{% url 'products' %}?category=outdoor,cctv,indoor,doorbell" class="dropdown-item">All Cameras</a>
+                <a href="{% url 'products' %}?category=outdoor,cctv,indoor,doorbell" class="dropdown-item">All Products</a>
             </div>
         </li>
 
@@ -29,9 +29,9 @@
                 SMART HOME
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="{% url 'products' %}?category=bed_bath" class="dropdown-item">Bed &amp; Bath</a>
-                <a href="{% url 'products' %}?category=kitchen_dining" class="dropdown-item">Kitchen &amp; Dining</a>
-                <a href="{% url 'products' %}?category=bed_bath,kitchen_dining" class="dropdown-item">All Homeware</a>
+                <a href="{% url 'products' %}?category=doorbell" class="dropdown-item">Doorbell </a>
+                <a href="{% url 'products' %}?category=minicamera" class="dropdown-item">MiniCamera </a>
+                <a href="{% url 'products' %}?category=doorbell,minicamera" class="dropdown-item">All Smart Products</a>
             </div>
         </li>
 
