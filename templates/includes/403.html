@@ -1,0 +1,12 @@
+<!-- Code block for displaying current site's sub-page -->
+{% block extra_title %}| 403 Forbidden{% endblock %}
+
+<!-- Code block for displaying the 403 page -->
+{% block content %}
+<div>
+    <h1>403 Forbidden</h1>
+    <p>You are not authorized to perform this action!</p>
+
+    <a href="{% url 'home' %}">Home</a>
+</div>
+{% endblock %}

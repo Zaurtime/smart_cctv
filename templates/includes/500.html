@@ -1,0 +1,11 @@
+<!-- Code block for displaying current site's sub-page -->
+{% block extra_title %}| 500 Internal Server Error{% endblock %}
+
+<!-- Code block for displaying the 500 page -->
+{% block content %}
+<div>
+    <h1>500 Internal Server Error</h1>
+    <p>I'm just a Robot!Website has some issues</p>
+    <a href="{% url 'home' %}">Home</a>
+</div>
+{% endblock %}
