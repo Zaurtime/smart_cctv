@@ -1,8 +1,19 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col text-center">
+                <h2 class="logo-font">Testimonials</h2>
+                <hr>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
 <!-- Code block for displaying current site's sub-page -->
-{% block extra_title %}| Testimonials{% endblock %}
+{% block extra_title %}| Page {% endblock %}
 
 <!-- Code block for displaying Testimonials page -->
 {% block content %}
