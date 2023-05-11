@@ -3,7 +3,7 @@
         "pk": 1,
         "model": "products.category",
         "fields": {
-            "name": "outdoor_camera",
+            "name": "outdoor",
             "friendly_name": "Outdoor Camera"
         }
     },
@@ -11,7 +11,7 @@
         "pk": 2,
         "model": "products.category",
         "fields": {
-            "name": "indoor_camera",
+            "name": "indoor",
             "friendly_name": "Indoor Camera"
         }
     },
@@ -43,7 +43,7 @@
         "pk": 6,
         "model": "products.category",
         "fields": {
-            "name": "doorbell_camera",
+            "name": "doorbell",
             "friendly_name": "Doorbell Camera"
         }
     },
@@ -67,8 +67,8 @@
         "pk": 9,
         "model": "products.category",
         "fields": {
-            "name": "doorbell",
-            "friendly_name": "Doorbell"
+            "name": "action",
+            "friendly_name": "Action Camera"
         }
     }
 ]
