@@ -1,1 +1,1 @@
-web: gunicorn smartcctv.wsgi:application
+web: gunicorn smart_cctv.wsgi:application
