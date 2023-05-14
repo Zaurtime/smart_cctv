@@ -72,7 +72,7 @@ ROOT_URLCONF = 'smart_cctv.urls'
 
 CRISPY_TEMOLATE_PACK = 'bootstrap4'
 
-TEMPLATES = [
+TEMPLATE = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
