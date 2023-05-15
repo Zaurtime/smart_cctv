@@ -55,7 +55,7 @@ INSTALLED_APPS = [
     'newsletter',
     'testimonials',
     'storages',
-    'cloudinary',
+    
 ]
 
 MIDDLEWARE = [
@@ -70,7 +70,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'smart_cctv.urls'
 
-CRISPY_TEMOLATE_PACK = 'bootstrap4'
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 TEMPLATES = [
     {
@@ -180,6 +180,7 @@ USE_TZ = True
 
 STATIC_URL = "/static/"
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "static"), ]
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
 MEDIA_URL = "/media/"
