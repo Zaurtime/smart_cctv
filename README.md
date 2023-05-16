@@ -41,6 +41,38 @@ The Admin panel can be accessed simply from the home page. You can navigate to i
  
 <br>
 
+# SEO (Search Engine Optimisation) and Marketing
+## SEO
+Keywords and phrases entered as metadata in the head of the HTML document and throughout the main content of the site helps search engines find relevant, searchable content.
+
+Here is the screenshot to my Facebook Business Page - and shown below 
+![Facebook Page](readme/facebook.png) 
+
+A Site Map was created by for this site by using [xml-sitemaps.com](www.xml-sitemaps.com). This enables search engines to find searchable content easily on the site. To ensure the site is GDPR compliant, I created a robots.txt file to restrict access for search engines to parts of the site that contain user information.
+
+### Marketing
+In the footer of Contact page, site visitors can find a link to sign up to the Smart CCTV newsletter.
+
+![newsletter](https://github.com/Zaurtime/smart_cctv/assets/119350794/cbfaaae1-8375-4192-ba19-6ea4da7ed5f8)
+
+
+Site Users can submit their email address on the form prvided on the newsletter page.
+
+
+# Testing
+
+## CSS
+All css pages were run through the [w3 CSS Validator](https://jigsaw.w3.org/css-validator/). No errors were found.
+![cssValid](https://github.com/Zaurtime/smart_cctv/assets/119350794/d215d382-8a6b-4167-b418-ce25e8b182bb)
+
+ 
+<br>
+
+## Ligthouse Testing
+Results of lighthouse testing on the site overall Performance 98 score ![lighthouse](https://github.com/Zaurtime/smart_cctv/assets/119350794/a2841614-29a7-4db4-bfa8-9ef981591097)
+
+
+
 # Technologies Used
 
 * [GitPod](https://gitpod.io/)
