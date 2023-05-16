@@ -1,6 +1,6 @@
 <h1 align="center">SMART CCTV</h1>
 
-<a href="https://smartcctv.herokuapp.com/" target="_blank" rel="noopener" alt="Smart CCTV, click here to open the website"><img src="media/amIrespon.png" alt="Smart CCTV" max-height="650px" max-width="1300px"></a>
+<a href="https://smartcctv.herokuapp.com/" target="_blank" rel="noopener" alt="Smart CCTV, click here to open the website"><img src="![amIrespon](https://github.com/Zaurtime/smart_cctv/assets/119350794/e56da158-4322-4916-b4b2-cf0da56be48c)" alt="Smart CCTV" max-height="650px" max-width="1300px"></a>
 <hr>
 View GitHub repository
 <a href="https://github.com/Zaurtime/smart_cctv" target="_blank" rel="noopener">here</a>
