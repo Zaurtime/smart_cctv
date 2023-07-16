@@ -1,16 +1,14 @@
-dotenv.load_dotenv()
-
-import dotenv
 import os
 import dj_database_url
- if os.path.isfile('env.py'):
-     import env
-
 from pathlib import Path
+import dotenv
+
+if os.path.isfile('env.py'):
+    import env
+
+dotenv.load_dotenv()
 
 
-
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
@@ -51,7 +49,6 @@ INSTALLED_APPS = [
     'newsletter',
     'testimonials',
     'storages',
-    
 ]
 
 MIDDLEWARE = [
@@ -79,7 +76,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request', #allauth
+                'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
@@ -134,8 +131,6 @@ else:
     }
 
 
-#AWS secret keys
-
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
@@ -183,7 +178,6 @@ MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 if 'USE_AWS' in os.environ:
-     # Cache control
     AWS_S3_OBJECT_PARAMETERS = {
         'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
         'CacheControl': 'max-age=94608000',
@@ -230,4 +224,3 @@ else:
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
