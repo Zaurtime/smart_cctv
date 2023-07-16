@@ -1,9 +1,8 @@
-import os
-import dj_database_url
 from pathlib import Path
 import dotenv
-
-if os.path.isfile('env.py'):
+import os
+import dj_database_url
+if os.path.exists("env.py"):
     import env
 
 dotenv.load_dotenv()
