@@ -2,7 +2,7 @@ dotenv.load_dotenv()
 
 import dotenv
 import os
- import dj_database_url
+import dj_database_url
  if os.path.isfile('env.py'):
      import env
 
