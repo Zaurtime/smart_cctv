@@ -45,8 +45,11 @@ The Admin panel can be accessed simply from the home page. You can navigate to i
 ## SEO
 Keywords and phrases entered as metadata in the head of the HTML document and throughout the main content of the site helps search engines find relevant, searchable content.
 
-Here is the screenshot to my Facebook Business Page - and shown below 
-![Facebook Page](readme/facebook.png) 
+Here are linkand screenshots to my Facebook Business Page - as shown below 
+![Facebook Page](https://www.facebook.com/profile.php?id=100095301210655)
+![Facebook Screenshot](/media/facebookB2C.png)
+![Facebook ContactPost](/media/faceBookContactPost.png)
+
 
 A Site Map was created by for this site by using [xml-sitemaps.com](www.xml-sitemaps.com). This enables search engines to find searchable content easily on the site. To ensure the site is GDPR compliant, I created a robots.txt file to restrict access for search engines to parts of the site that contain user information.
 
