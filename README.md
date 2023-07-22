@@ -45,8 +45,8 @@ The Admin panel can be accessed simply from the home page. You can navigate to i
 ## SEO
 Keywords and phrases entered as metadata in the head of the HTML document and throughout the main content of the site helps search engines find relevant, searchable content.
 
-Here are linkand screenshots to my Facebook Business Page - as shown below 
-![Facebook Page](https://www.facebook.com/profile.php?id=100095301210655)
+Here are link and screenshots to my Facebook Business Page - as shown below 
+[Facebook B2C](https://www.facebook.com/profile.php?id=100095301210655)
 ![Facebook Screenshot](/media/facebookB2C.png)
 ![Facebook ContactPost](/media/faceBookContactPost.png)
 
