@@ -167,13 +167,24 @@ This application has been deployed from Github using Heroku. Here's how:
 
 17.  Ensure the following environment variables are set in Heroku
 
-18.  Connect the app to GitHub, and enable automatic deploys from the main if you wish
+* Add the following config vars:
+  - AWS_ACCESS_KEY_ID
+  - AWS_SECRET_ACCESS_KEY
+  - DATABASE_URL
+  - EMAIL_HOST_USER
+  - SECRET_KEY
+  - SECRET_WH_SECRET
+  - STRIPE_PUBLIC_KEY
+  - STRIPE_SECRET_KEY
+  - USE_AWS
 
-19.  Click deploy to deploy your application to Heroku for the first time
+19.  Connect the app to GitHub, and enable automatic deploys from the main if you wish
 
-20.  Click on the link provided to access the application
+20.  Click deploy to deploy your application to Heroku for the first time
 
-21.  If you encounter any issues accessing the build logs is a good way to troubleshoot the issue
+21.  Click on the link provided to access the application
+
+22.  If you encounter any issues accessing the build logs is a good way to troubleshoot the issue
 
 
 ### Fork Repository
