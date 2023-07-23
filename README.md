@@ -43,11 +43,11 @@ The Admin panel can be accessed simply from the home page. You can navigate to i
 
 # SEO (Search Engine Optimisation) and Marketing
 ## SEO
-Keywords and phrases entered as metadata in the head of the HTML document and throughout the main content of the site helps search engines find relevant, searchable content.
+Keywords and phrases entered as metadata in the head of the HTML document and throughout the main content of the site help search engines find relevant, searchable content.
 
-Here are link and screenshots to my Facebook Business Page - as shown below 
+Here is the link  [Facebook B2C](https://www.facebook.com/profile.php?id=100095301210655)
 
-[Facebook B2C](https://www.facebook.com/profile.php?id=100095301210655)
+Screenshots of my Facebook Business Page - as shown below 
 
 ![Facebook Screenshot](/media/facebookB2C.png)
 
@@ -62,7 +62,7 @@ In the footer of Contact page, site visitors can find a link to sign up to the S
 ![newsletter](https://github.com/Zaurtime/smart_cctv/assets/119350794/cbfaaae1-8375-4192-ba19-6ea4da7ed5f8)
 
 
-Site Users can submit their email address on the form prvided on the newsletter page.
+Site Users can submit their email addresses on the form provided on the newsletter page.
 
 
 # Testing
@@ -74,7 +74,7 @@ All css pages were run through the [w3 CSS Validator](https://jigsaw.w3.org/css-
  
 <br>
 
-## Ligthouse Testing
+## Lighthouse Testing
 Results of lighthouse testing on the site overall Performance 98 score ![lighthouse](https://github.com/Zaurtime/smart_cctv/assets/119350794/a2841614-29a7-4db4-bfa8-9ef981591097)
 
 
@@ -90,7 +90,7 @@ Results of lighthouse testing on the site overall Performance 98 score ![lightho
 * [ElephantSQL](https://api.elephantsql.com/console/cac17a18-94fd-4be5-99fe-f319179d4a64/details)
   * Holds the database for this site
 * [Python](https://www.python.org/)
-  * Most of the site was construted using this language
+  * Most of the site was constructed using this language
 * [HTML](https://html.com/semantic-markup/)
 * [Bootstrap](https://getbootstrap.com/)
   * Much of the site uses Bootstrap
@@ -105,7 +105,7 @@ Results of lighthouse testing on the site overall Performance 98 score ![lightho
 * [Heroku](https://id.heroku.com/login)
   * The hosting site for Tripp's Treasures
 * [Dango Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/)
-  * Used for creating forms in the site.
+  * Used for creating forms on the site.
 
 <br>
 
@@ -117,7 +117,7 @@ The site was deployed to Heroku. The steps to deploy are as follows:
 
 * Navigate to heroku and create an account
 * Click the new button in the top right corner
-* Select create new app
+* Select create a new app
 * Enter app name
 * Select region and click create app
 * Click the resources tab and search for Heroku Postgres
@@ -136,24 +136,61 @@ The site was deployed to Heroku. The steps to deploy are as follows:
 * Click the deploy tab
 * Scroll down to Connect to GitHub and sign in / authorize when prompted
 * In the search box, find the repository you want to deploy and click connect
-* Scroll down to Manual deploy and choose the main branch
-* Click deploy
+* Scroll down to Manual Deploy and choose the main branch
+* Click Deploy
+
+This application has been deployed from Github using Heroku. Here's how:
+
+1. Create an account at heroku.com
+2. Create an app, give it a name and select a region
+3. Go to app settings and set DATABASE_URL to config vars
+4. Install the plugins dj-database-url and psycopg2-binary in terminal.
+5. Run pip3 freeze > requirements.txt so both are added to the requirements.txt file
+6. Create a Procfile with the text: web: gunicorn your_app_name.wsgi
+7. Ensure debug is set to false in the settings.py file, add localhost, smartcctv.herokuapp.com to the ALLOWED_HOSTS variable in settings.py
+8. In the settings.py ensure the connection is to the Heroku postgres database, no indentation if you are not using a separate test database. 
+9.  Run "python3 manage.py showmigrations" to check the status of the migrations
+
+10. Run "python3 manage.py migrate" to migrate the database
+
+11. Run "python3 manage.py createsuperuser" to create a super/admin user
+
+12. Run "python3 manage.py loaddata genres.json" on the categories file in products/fixtures to create the genres
+
+13. Run "python3 manage.py loaddata albums.json" on the products file in products/fixtures to create the albums
+
+14. Run "python3 manage.py loaddata tracks.json" on the products file in products/fixtures to create the tracks
+
+15. Install gunicorn (pip install gunicorn) and add it to the requirements.txt file using the command pip3 freeze > requirements.txt
+
+16. Disable collectstatic in Heroku before any code is pushed using the heroku settings config vars: set DISABLE_COLLECTSTATIC: 1
+
+17.  Ensure the following environment variables are set in Heroku
+
+18.  Connect the app to GitHub, and enable automatic deploys from the main if you wish
+
+19.  Click deploy to deploy your application to Heroku for the first time
+
+20.  Click on the link provided to access the application
+
+21.  If you encounter any issues accessing the build logs is a good way to troubleshoot the issue
+
 
 ### Fork Repository
 To fork the repository by following these steps:
 1. Go to the GitHub repository
-2. Click on Fork button in upper right hand corner
+2. Click on Fork button in the upper right-hand corner
 <hr>
 
 ### Clone Repository
 You can clone the repository by following these steps:
 1. Go to the GitHub repository 
 2. Locate the Code button above the list of files and click it 
-3. Select if you prefere to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+3. Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
 4. Open Git Bash
 5. Change the current working directory to the one where you want the cloned directory
 6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
-7.Press Enter to create your local clone.
+7. Press Enter to create your local clone.
 
 ### Stripe
 * Create a developer account
