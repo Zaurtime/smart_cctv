@@ -46,8 +46,11 @@ The Admin panel can be accessed simply from the home page. You can navigate to i
 Keywords and phrases entered as metadata in the head of the HTML document and throughout the main content of the site helps search engines find relevant, searchable content.
 
 Here are link and screenshots to my Facebook Business Page - as shown below 
+
 [Facebook B2C](https://www.facebook.com/profile.php?id=100095301210655)
+
 ![Facebook Screenshot](/media/facebookB2C.png)
+
 ![Facebook ContactPost](/media/faceBookContactPost.png)
 
 
@@ -108,7 +111,7 @@ Results of lighthouse testing on the site overall Performance 98 score ![lightho
 
 # Deployment
 
-## Heroku Deployment
+### Heroku Deployment
 
 The site was deployed to Heroku. The steps to deploy are as follows:
 
@@ -136,8 +139,30 @@ The site was deployed to Heroku. The steps to deploy are as follows:
 * Scroll down to Manual deploy and choose the main branch
 * Click deploy
 
+### Fork Repository
+To fork the repository by following these steps:
+1. Go to the GitHub repository
+2. Click on Fork button in upper right hand corner
+<hr>
 
-## AWS
+### Clone Repository
+You can clone the repository by following these steps:
+1. Go to the GitHub repository 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefere to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7.Press Enter to create your local clone.
+
+### Stripe
+* Create a developer account
+* Add stripe keys (public and private) to env.py and heroku config vars
+* Set up Stripe according to Stripe's documentation
+* Add site url to Stripe's webhooks section
+* Add the webhook secret key to env.py and Heroku config vars
+
+### AWS
 * Create an aws account
 * Navigate to S3 in services and create a bucket
 * Set up IAM
@@ -145,22 +170,19 @@ The site was deployed to Heroku. The steps to deploy are as follows:
 * Configure in settings.py
 * Add access key and secret key to env.py
 * Add keys to config vars in Heroku
-* Disable collectstatic in config vars
+* Disable collect static in config vars
 * Add new directory path for static files in settings.py
 
-## Stripe
-* Create a developer account
-* Add stripe keys (public and private) to env.py and heroku config vars
-* Set up Stripe according to Stripe's documentation
-* Add site url to Stripe's webhooks section
-* Add the webhook secret key to env.py and Heroku config vars
-
-## Credits
+### Credits
 * I used the Boutique Ado walkthrough project as guidance for my project
 * Spent a lot of time looking up Bootstrap documentation
 * Also spent time reading Django documentation
-* I used some posts from Stack Overflow for various little snippets of code, which can be found commented within the code blocks
-it has been used in
-* My mentor sessions with [Gareth McGirr](https://github.com/Gareth-McGirr/) who was very helpful in guiding me with my planning for the project
-* All camera images were taken from online store [eBay](https://www.ebay.ie)
+* I used some posts from Stack Overflow for various little snippets of code, which can be found commented within the code blocks it has been used in
+* All camera images were taken from the online store [eBay](https://www.ebay.ie)
 
+## Acknowledgements
+
+### Special thanks to the following:
+* My mentor sessions with [Gareth McGirr](https://github.com/Gareth-McGirr/) who was very helpful in guiding me with my planning for the project and completing
+* Code Institute Tutor Support Network
+* My team vs colleagues with whom I study on the course
