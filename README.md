@@ -124,6 +124,19 @@ The Admin panel can be accessed simply from the home page. You can navigate to i
 ## SEO
 Keywords and phrases entered as metadata in the head of the HTML document and throughout the main content of the site help search engines find relevant, searchable content.
 
+In order to improve the site search engine ranking two important files were added to the project :
+
+A sitemap.xml file This file was added to help speed up content discovery for search engines when they crawl and index web applications. A robots.txt file This file was added to acknowledge that search engines are allowed on the site and that they may have free access to it. A robots.txt file is a simple text file that tells search engines where they are not allowed to go on a website. It lists out any folders or files that will not be crawled or indexed by search engine spiders.
+
+## Marketing
+#### In the footer of Contact page, site visitors can find a link to sign up to the Smart CCTV newsletter.
+
+![newsletter](https://github.com/Zaurtime/smart_cctv/assets/119350794/cbfaaae1-8375-4192-ba19-6ea4da7ed5f8)
+
+Site Users can submit their email addresses on the form provided on the newsletter page.
+
+#### Social Media
+
 Here is the link  [Facebook B2C](https://www.facebook.com/profile.php?id=100095301210655)
 
 Screenshots of my Facebook Business Page - as shown below 
@@ -132,16 +145,45 @@ Screenshots of my Facebook Business Page - as shown below
 
 ![Facebook ContactPost](/media/faceBookContactPost.png)
 
+#### Free Delivery
 
-A Site Map was created by for this site by using [xml-sitemaps.com](www.xml-sitemaps.com). This enables search engines to find searchable content easily on the site. To ensure the site is GDPR compliant, I created a robots.txt file to restrict access for search engines to parts of the site that contain user information.
+We will offer free delivery on all orders above a certain threshold to incentivize customers to make a purchase. This will help us increase our average order value and encourage repeat purchases.
 
-### Marketing
-In the footer of Contact page, site visitors can find a link to sign up to the Smart CCTV newsletter.
+## User Goals
 
-![newsletter](https://github.com/Zaurtime/smart_cctv/assets/119350794/cbfaaae1-8375-4192-ba19-6ea4da7ed5f8)
+- Easily browsing and discovering new camera CCTV products and trends
+- Accessing detailed product information and reviews to make informed purchasing decisions
+- Access to the latest news and trends of the smart camera industry through the newsletter subscription
+- Contact form for information, customer service and support
+- Track user orders to have access to order information
+- Save favourite products in the bag
+- The payment options available, including any security measures in place to protect customer information.
 
+## Site Owner Goals
+- To create a visually appealing and user-friendly website that engages and converts visitors into loyal customers
+- To offer a wide range of high-quality Smart Camera products that cater to diverse needs, and budgets, ensuring customer satisfaction and loyalty
+- To offer secure and seamless payment options that build trust and confidence among customers, reducing cart abandonment rates and increasing sales
+- Generate revenue through the sale of products in the e-commerce shop
+<hr>
 
-Site Users can submit their email addresses on the form provided on the newsletter page.
+## User Experience
+### Target Audience
+- Homeowners enthusiasts of all ages who are passionate about security, safety, and other smart products and are always looking for the latest trends and innovations in the industry.
+- Pet Owners: Pet owners who want to keep an eye on their pets when they are not at home.
+- Car Owners: Vehicle owners interested in dashcams or CCTV systems for monitoring car surroundings and security.
+- Individuals with Special Needs: People with specific security requirements, such as elderly individuals living alone or persons with disabilities.
+- Educational Institutions: Schools, colleges, and universities looking to ensure campus security and monitor common areas.
+- Retail Stores: Businesses in the retail industry seeking CCTV cameras to prevent theft, monitor customer behaviour, and enhance store security.
+- Small Business Owners: Entrepreneurs running small businesses, shops, or offices, who require surveillance solutions to safeguard their premises and assets.
+- Individuals: looking to enhance the security of their homes and protect their families, belongings, and property.
+
+### User Requirements and Expectations
+- Intuitive and easy-to-use website: users expect a website that is easy to navigate and understand, with clear and concise menus, categories, and search options. They want a site that loads quickly and is responsive to their clicks and inputs
+- Wide range of products: users want access to a diverse and extensive range of camera products, from popular and well-known brands to niche and emerging ones. They expect products that are up-to-date, high-quality, and competitively priced
+- Detailed product information: users expect detailed and accurate product descriptions, images, and customer reviews that help them make informed decisions about what to buy
+- Secure and easy payment options: users expect secure and convenient payment option. They want to know that their personal and financial information is safe and protected
+- Fast and reliable shipping: users expect fast and reliable shipping and delivery options, with clear and transparent tracking information. They want to know when their orders will arrive and be able to track them throughout the process
+- Accessibility
 
 
 # Testing
