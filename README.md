@@ -56,6 +56,42 @@ Throughout the year, Smart CCTV will run targeted campaigns during festive seaso
 
 By integrating these core business intents and marketing strategies, Smart CCTV endeavours to become a reputable and go-to destination for customers seeking top-quality CCTV cameras and related security solutions. Through constant innovation, customer-centricity, and a focus on delivering value, Smart CCTV aims to thrive in the competitive B2C CCTV e-commerce market.
 
+#### Financial plan for an e-commerce store with a budget of $300,000 
+
+Website Development and Design: $50,000
+- E-commerce platform subscription and setup: $10,000
+- Custom website development and design: $40,000
+
+Inventory Procurement: $150,000
+- Purchase of CCTV cameras and related products: $130,000
+- Shipping and handling fees: $20,000
+  
+Marketing and Advertising: $70,000
+- Pay-Per-Click (PPC) advertising budget: $20,000
+- Social media marketing and influencer collaborations: $20,000
+- Email marketing and content creation: $10,000
+- Seasonal and festive campaign promotions: $10,000
+- Search Engine Optimization (SEO) and Search Engine Marketing (SEM): $10,000
+
+Operating Expenses: $15,000
+- Web hosting and domain registration: $1,000
+- Office supplies and equipment: $3,000
+- Legal and regulatory fees: $1,000
+- Employee salaries: $10,000
+  
+Contingency Fund: $15,000
+- Reserve for unexpected expenses or emergencies.
+
+Total Budget: $300,000
+
+#### Financial Projections
+
+Revenue Projections: Based on market research and competitor analysis, estimate the expected monthly sales volume. Aim for steady growth over the first year and beyond.
+
+
+Pricing Strategy: Smart CCTV team will set competitive prices that balance attracting customers and maintaining profitability.
+With a more substantial budget, the e-commerce store can invest in high-quality website development, a wide range of inventory, and targeted marketing efforts to establish a strong brand presence and attract a large customer base.
+
 ## IMPORTANT INSTRUCTIONS:
 If you wish to register or receive a confirmation email, you need to enter a real email address or generate a test email through an email generator site when registering or purchasing items.
  
@@ -182,9 +218,7 @@ This application has been deployed from Github using Heroku. Here's how:
 
 16. Disable collectstatic in Heroku before any code is pushed using the heroku settings config vars: set DISABLE_COLLECTSTATIC: 1
 
-17.  Ensure the following environment variables are set in Heroku
-
-* Add the following config vars:
+* Add the following config vars :
   - AWS_ACCESS_KEY_ID
   - AWS_SECRET_ACCESS_KEY
   - DATABASE_URL
@@ -194,6 +228,8 @@ This application has been deployed from Github using Heroku. Here's how:
   - STRIPE_PUBLIC_KEY
   - STRIPE_SECRET_KEY
   - USE_AWS
+
+17.  Ensure the following environment variables are set in Heroku
 
 19.  Connect the app to GitHub, and enable automatic deploys from the main if you wish
 
