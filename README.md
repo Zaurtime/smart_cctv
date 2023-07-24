@@ -13,6 +13,49 @@ The live site can viewed here
 ## PURPOSE OF THIS SITE:
 Smart CCTV is an online e-commerce cameras store. The site specifically sells cameras, recently released in various different categories.
 
+### Smart CCTV - A Comprehensive Business Model and Marketing Strategy for a B2C Camera CCTV E-commerce Store
+
+Introduction:
+Smart CCTV is an online B2C e-commerce store specializing in selling high-quality CCTV cameras and surveillance equipment to residential and small business customers. The primary intent of Smart CCTV is to provide customers with top-notch security solutions, offering a wide range of cameras and accessories to safeguard their properties and loved ones. The following outlines the core business intents and marketing strategies for the application.
+
+Core Business Intents:
+
+a. Product Quality and Diversity:
+Smart CCTV aims to offer a diverse selection of cutting-edge CCTV cameras and accessories from reputable brands. The store will focus on delivering superior products with high-resolution video capabilities, night vision, motion detection, and mobile app integration for remote monitoring. Quality assurance and customer satisfaction will be top priorities to build trust and retain loyal customers.
+
+b. Exceptional Customer Service:
+To enhance the overall customer experience, Smart CCTV will provide responsive customer support via multiple channels (phone, email, chat). Knowledgeable representatives will be available to guide customers in choosing the right products based on their specific needs and budget. Post-purchase support will also be emphasized to ensure seamless product installation and usage.
+
+c. User-Friendly Online Platform:
+The e-commerce store will feature an intuitive and user-friendly interface, enabling customers to easily browse through product categories, read specifications, read reviews, subscribe to newsletters and make secure transactions. Emphasis will be on optimizing the website for various devices (desktop, mobile, tablet) to accommodate customer preferences.
+
+d. Educative Content Creation:
+Smart CCTV will focus on becoming an authority in the security surveillance domain. This will be achieved through a regularly updated newsletter section offering educational content, guides, and articles on home security best practices, DIY installation tips, and technology advancements. The goal is to position the brand as a valuable resource for customers seeking information and to drive organic traffic through SEO efforts.
+
+#### Marketing Strategies:
+a. Search Engine Optimization (SEO):
+Smart CCTV will invest in keyword research to optimize product pages and blog content for search engines. By targeting relevant keywords related to home security and surveillance, the store aims to improve organic rankings and attract potential customers actively searching for such products.
+
+b. Pay-Per-Click (PPC) Advertising:
+To drive immediate traffic and sales, Smart CCTV will utilize PPC campaigns on platforms like Google Ads and Bing Ads. Advertisements will be highly targeted, focusing on specific camera models, key features, and related keywords, with a keen eye on maintaining a competitive budget.
+
+c. Social Media Marketing:
+A strong social media presence will be established on platforms such as Facebook, Instagram, and Twitter. Engaging content, including product showcases, customer testimonials, and informative posts, will be shared to generate brand awareness, engage with the audience, and foster a sense of community.
+
+d. Email Marketing:
+Smart CCTV will implement email marketing campaigns to nurture leads, re-engage previous customers, and promote special offers or discounts. Personalized emails will be sent based on customer preferences and purchase history to increase customer retention and foster loyalty.
+
+e. Influencer Collaborations:
+Partnering with influencers in the security and tech niche, Smart CCTV will leverage their reach to showcase products and share positive experiences with their followers. Influencer collaborations will amplify brand exposure and credibility.
+
+f. Referral Program:
+To incentivize word-of-mouth marketing, Smart CCTV will introduce a referral program where customers can earn rewards or discounts by referring friends and family. This strategy aims to tap into existing customer networks and expand the customer base.
+
+g. Seasonal and Festive Campaigns:
+Throughout the year, Smart CCTV will run targeted campaigns during festive seasons and events, offering exclusive deals and discounts to encourage purchases during peak shopping periods.
+
+By integrating these core business intents and marketing strategies, Smart CCTV endeavours to become a reputable and go-to destination for customers seeking top-quality CCTV cameras and related security solutions. Through constant innovation, customer-centricity, and a focus on delivering value, Smart CCTV aims to thrive in the competitive B2C CCTV e-commerce market.
+
 ## IMPORTANT INSTRUCTIONS:
 If you wish to register or receive a confirmation email, you need to enter a real email address or generate a test email through an email generator site when registering or purchasing items.
  
@@ -112,32 +155,6 @@ Results of lighthouse testing on the site overall Performance 98 score ![lightho
 # Deployment
 
 ### Heroku Deployment
-
-The site was deployed to Heroku. The steps to deploy are as follows:
-
-* Navigate to heroku and create an account
-* Click the new button in the top right corner
-* Select create a new app
-* Enter app name
-* Select region and click create app
-* Click the resources tab and search for Heroku Postgres
-* Select hobby dev and continue
-* Go to the settings tab and then click reveal config vars
-* Add the following config vars:
-  - AWS_ACCESS_KEY_ID
-  - AWS_SECRET_ACCESS_KEY
-  - DATABASE_URL
-  - EMAIL_HOST_USER
-  - SECRET_KEY
-  - SECRET_WH_SECRET
-  - STRIPE_PUBLIC_KEY
-  - STRIPE_SECRET_KEY
-  - USE_AWS
-* Click the deploy tab
-* Scroll down to Connect to GitHub and sign in / authorize when prompted
-* In the search box, find the repository you want to deploy and click connect
-* Scroll down to Manual Deploy and choose the main branch
-* Click Deploy
 
 This application has been deployed from Github using Heroku. Here's how:
 
