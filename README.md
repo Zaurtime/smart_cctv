@@ -220,7 +220,7 @@ We will offer free delivery on all orders above a certain threshold to incentivi
 ### User Stories
 - GitHub projects were used to track all open user stories
 
-![Epics]()</details>
+![Epics](/media/user.storyProject.png)</details>
 
 
 
