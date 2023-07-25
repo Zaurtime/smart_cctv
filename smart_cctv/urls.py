@@ -22,4 +22,3 @@ urlpatterns = [
 handler403 = "smart_cctv.views.handler403"
 handler404 = "smart_cctv.views.handler404"
 handler500 = "smart_cctv.views.handler500"
-

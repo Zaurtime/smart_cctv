@@ -26,3 +26,4 @@ def newsletter(request):
     }
 
     return render(request, template, context)
+    
