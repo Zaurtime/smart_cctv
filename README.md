@@ -405,7 +405,114 @@ All css pages were run through the [w3 CSS Validator](https://jigsaw.w3.org/css-
 ## Lighthouse Testing
 Results of lighthouse testing on the site overall Performance 98 score ![lighthouse](https://github.com/Zaurtime/smart_cctv/assets/119350794/a2841614-29a7-4db4-bfa8-9ef981591097)
 
+## Features  
 
+### Search Engine Optimisation (SEO)
+
+I used meta keywords that make it possible for people to find my site via search engines. Keywords are ideas and topics that define what my website content is about.
+ 
+
+### Logo
+
+- A custom logo for the business included only letters.
+
+
+### Home page
+
+- Home page includes a navbar, a main website slider with images, main text, a button "Shop now" and a footer with website information.
+
+
+### Navigation
+  - Navbar includes links to all products, blog page, contact page, bag, profile page, and wish list
+  - Navbar has a search field for products searching
+  - Indicates login/logout and register in status.
+  - Fully Responsive.
+  - On small screens switches to the hamburger menu.
+  - Displayed on all pages
+ 
+
+### Search
+- Allows the user to search for products.  
+
+### Footer
+- Contains Github and Facebook Business page 
+- displayed across all pages.  
+
+### Newsletter Sign Up
+- Signup for email mailing list. 
+
+### Social Media Links
+- A link is used for the Facebook business page.
+- All links open in a new tab to ensure the user is not directed away from the business.
+- noopener, noreferrer, nofollow used to communicate with web crawlers and for security and privacy concerns.  
+
+  
+### Products  page
+  - Products list page contains all products cards, buttons to sort by categories.
+  - User allowed to add each product to bag.
+
+
+### Sorting field
+- Allows the user to sort the listed products.  
+
+### Products details
+  - Products details page contains product image, description, quantity input, add to bag button.
+  - User allowed to add products to bag list or remove accordingly
+
+### Testimonials
+- Only registered users can leave, update or delete their reviews on products
+  
+### Add Product
+  - Allows the Admin to add new products.
+
+### Edit Product
+  - Allows the Admin to edit the products.
+
+### Delete Product
+  - Allows the Admin to delete products
+
+### Bag
+  - Contains all products which user selected to buy
+  - User can change item quantity
+  - User can go to secure checkout page by click on button
+
+### Checkout
+  - Allows the user to purchase items in their bag.
+
+### Stripe
+  - Allows the user to use stripe for card payments.
+
+### Email Confirmation
+  - Allows the user to receive an email confirmation for their order.
+
+### Checkout success
+  - Shows the page confirmation with user order.
+
+### Post details page
+
+  - Post details page provides post content.
+
+### Contact page
+
+  - Contact now page contains a message form for the business.
+  - Anyone can send a message to the website owner.
+
+### Profile 
+
+  - Allows the user to update their information and see their order history.
+
+### Sign up / Register
+
+- Allow users to register an acoount.
+
+### Sign In
+
+- User can sign in.  
+
+### Sign Out
+
+- Allows the user to securely sign out.
+- Ask user if they are sure they want to sign out.  
 
 # Technologies Used
 
