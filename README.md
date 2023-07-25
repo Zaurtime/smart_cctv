@@ -222,7 +222,175 @@ We will offer free delivery on all orders above a certain threshold to incentivi
 
 ![Epics](/media/user.storyProject.png)</details>
 
+## Wireframes
 
+Balsamiq was used to create wireframes for this project.
+
+## Design
+
+### Colors
+
+The SMART CCTV website has a colour scheme that is primarily classic white, black and blue. The website such as white and black to create a cohesive and visually appealing colour palette that reflects the brand's identity and values. The blue creates a sense of freedom.
+
+<br>
+
+### Fonts
+
+The font was selected from Google Fonts, Lato. It is a popular choice for headings, titles, and other display purposes, as it has a classic and elegant look that is well-suited to a range of design styles. The font's unique combination of thick and thin strokes, along with its generous spacing and high contrast, give it a distinct and sophisticated appearance.
+
+
+## Structure
+
+The site was designed for the user to be familiar with the layout such as a navigation bar along the top of the pages and a hamburger menu button for smaller screens.
+The pages are structured in a user-friendly and easy-to-learn way. Upon arriving at the website the user sees the home page, with a call to action.
+
+## Website pages
+The site consists of the following pages:
+
+- Home page
+- Products page
+- Product details page
+- Post details page
+- Contact page
+- Register page
+- Login page
+- Logout page
+- Profile page
+- Testimonials page
+- Bag page
+- Checkout page
+- Checkout success page
+
+## Models  
+
+User Model
+
+| Key        | Name         | Type        |
+| ---------- | ------------ | ----------- |
+| PrimaryKey | user_id      | AutoField   |
+|            | password     | VARCHAR(45) |
+|            | last_login   | VARCHAR(45) |
+|            | is_superuser | BOOLEAN     |
+|            | username     | VARCHAR(45) |
+|            | first_name   | VARCHAR(45) |
+|            | last_name    | VARCHAR(45) |
+|            | email        | VARCHAR(45) |
+|            | is_staff     | BOOLEAN     |
+|            | is_active    | BOOLEAN     |
+|            | date_joined  | VARCHAR(45) |
+
+User Profile Model
+
+| Key        | Name                 | Type          |
+| ---------- | -------------------- | ------------- |
+| PrimaryKey | user_profile_id      | AutoField     |
+| ForeignKey | user                 | User model    |
+|            | default_phone_number | CharField[20] |
+|            | default_street_address1| CharField[80] |
+|            | default_street_address2 | CharField[80] |
+|            | default_town_or_city | CharField[40] |
+|            | default_county       | CharField[80] |
+|            | default_postcode     | CharField[20] |
+|            | default_country      | CountryField |
+
+Products Model
+
+| Key        | Name        | Type           |
+| ---------- | ----------- | -------------- |
+| PrimaryKey | product_id  | AutoField      |
+| ForeignKey | category    | Category model |
+|            | sku         | CharField[254] |
+|            | name        | CharField[254] |
+|            | description | TextField      |
+|            | has_sizes   | BooleanField   |
+|            | price       | DecimalField   |
+|            | rating      | DecimalField   |
+|            | image_url   | URLField       |
+|            | image       | ImageField     |
+
+Category Model
+
+| Key        | Name        | Type             |
+| ---------- | ----------- | --------------   |
+| PrimaryKey | id          | AutoField        |
+|            | name        | CharField[150]   |
+|            | friendly_name | CharField[254] |
+
+
+Product Review Model
+
+| Key        | Name        | Type           |
+| ---------- | ----------- | -------------- |
+| PrimaryKey | review_id   | AutoField      |
+| ForeignKey | product     | Product model  |
+| ForeignKey | user        | User model  |
+|            | content     | TextField      |
+|            | stars       | IntegerField   |
+|            | date        | DateTimeField  |
+
+
+Wishlist Model
+
+| Key        | Name        | Type                |
+| ---------- | ----------- | --------------      |
+| PrimaryKey | wishlist_id | AutoField           |
+| ForeignKey | product     | Product model       |
+| ForeignKey | user        | User model          |
+
+Post Model
+
+| Key        | Name           | Type           |
+| ---------- | -----------    | -------------- |
+| PrimaryKey | post_id        | AutoField      |
+|            | title          | CharField[100] |
+|            | content        | TextField      |
+|            | excerpt        | TextField      |
+|            | featured_image | ImageField     |
+|            | date_created   | DateTimeField  |
+
+Contact Model
+
+| Key        | Name        | Type             |
+| ---------- | ----------- | --------------   |
+| PrimaryKey | id          | AutoField        |
+|            | name        | CharField[150]   |
+|            | email       | EmailField       |
+|            | reason      | CharField[15]    |
+|            | message     | TextField        |
+
+Order Model
+
+| Key        | Name            | Type               |
+| ---------- | --------------- | ------------------ |
+| PrimaryKey | order_id        | AutoField          |
+|            | order_number    | CharField[32]      |
+| ForeignKey | user_profile    | UserProfile Model |
+|            | full_name       | CharField[50]      |
+|            | email           | EmailField[254]    |
+|            | phone_number    | CharField[20]      |
+|            | country         | CountryField       |
+|            | postcode        | CharField[20]      |
+|            | town_or_city    | CharField[40]      |
+|            | street_address1 | CharField[80]      |
+|            | street_address2 | CharField[80]      |
+|            | county          | CharField[80]      |
+|            | date            | DateTimeField      |
+|            | delivery_cost   | DecimalField[6]    |
+|            | order_total     | DecimalField[10]   |
+|            | grand_total     | DecimalField[10]   |
+|            | original_bag    | TextField          |
+|            | stripe_pid      | CharField          |
+
+OrderLineItem Model
+
+| Key        | Name             | Type            |
+| ---------- | ---------------- | --------------- |
+| PrimaryKey | OrderLineItem_id | AutoField       |
+| ForeignKey | order            | Order Model     |
+| ForeignKey | product          | Product Model   |
+| ForeignKey | product_size     | CharField       |
+|            | quantity         | IntegerField    |
+|            | lineitem_total  | DecimalField[6] |
 
 
 # Testing
