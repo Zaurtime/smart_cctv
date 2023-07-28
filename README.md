@@ -206,16 +206,16 @@ We will offer free delivery on all orders above a certain threshold to incentivi
 18. As a shopper I can be interested in previous shopper experience so that I can choose a product according to the best reviews
 19. As a shopper I can leave my own review on each product so that I can rate the product and write about its advantages or disadvantages
 20. As a shopper I can easily enter my payment information so that I can check out quickly and with no hassles
-21. As a shopper I can pay for product so that I can complete the payment through secure checkout
+21. As a shopper I can pay for products so that I can complete the payment through a secure checkout
 22. As a shopper I can see my orders so that I can track the progress of all my orders
-23. As a shopper I can look at blog so that it provides me regular updates through published posts
+23. As a shopper I can subscribe to a newsletter so that it provides me with regular updates through published posts
 24. As a shopper I can contact the business so that I can communicate with a person
 25. As a user I can find the store's social networks so that see all the information and updates
 26. As a shopper I can sign up for a newsletter so that I can get access to special offers or promotions
-27. As a shopper I can quickly identify deals clearance items and special offers so that I can take advantage of special saving on products I'd like to purchase
+27. As a shopper I can quickly identify deals clearance items and special offers so that I can take advantage of special savings on products I'd like to purchase
 28. As a shopper I can easily view the total of my purchases at any time so that avoid spending too much
 29. As a user I can see my order history so that I always know what product I bought and have access to order the product again if I liked it
-30. As a user I can receive am email from shop where I ordered items so that I always confirm my purchase and know what I ordered
+30. As a user I can receive an email from the shop where I ordered items so that I always confirm my purchase and know what I ordered
 
 ### User Stories
 - GitHub projects were used to track all open user stories
