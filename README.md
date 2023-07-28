@@ -402,6 +402,232 @@ All css pages were run through the [w3 CSS Validator](https://jigsaw.w3.org/css-
  
 <br>
 
+## PEP8 Validation
+
+[CI Python Linter](https://pep8ci.herokuapp.com/) was used to check the code for PEP8 requirements
+
+### Bag
+
+  <details><summary>contexts.py</summary>
+  <img src="/media/TestPip8/bagContext.png">
+  </details>
+
+  <details><summary>apps.py</summary>
+  <img src="/media/TestPip8/ bagApps.png">
+  </details>
+
+  <details><summary>urls.py</summary>
+  <img src="/media/TestPip8/bagUrls.png">
+  </details>
+
+  <details><summary>views.py</summary>
+  <img src="/media/TestPip8/bagViews.png">
+  </details>
+
+<br>
+
+
+### Checkout
+
+  <details><summary>admin.py</summary>
+  <img src="/media/TestPip8/checkoutAdmin.png">
+  </details>
+
+  <details><summary>admin.py</summary>
+  <img src="/media/TestPip8/checkoutAdmin.png">
+  </details>
+
+  <details><summary>forms.py</summary>
+  <img src="/media/TestPip8/checkoutForms.png">
+  </details>
+
+  <details><summary>models.py</summary>
+  <img src="/media/TestPip8/checkoutModels.png">
+  </details>
+
+  <details><summary>signals.py</summary>
+  <img src="/media/TestPip8/checkoutSignals.png">
+  </details>
+
+  <details><summary>urls.py</summary>
+  <img src="/media/TestPip8/checkoutUrls.png">
+  </details>
+
+  <details><summary>views.py</summary>
+  <img src="/media/TestPip8/checkoutViews.png">
+  </details>
+
+  <details><summary>webhook_handler.py</summary>
+  <img src="/media/TestPip8/checkoutWebhookHandler.png">
+  </details>
+
+  <details><summary>webhooks.py</summary>
+  <img src="/media/TestPip8/checkoutWebhS.png">
+  </details>
+
+<br>
+
+### Contact 
+
+  <details><summary>admin.py</summary>
+  <img src="/media/TestPip8/contactAdmin.png">
+  </details>
+
+  <details><summary>forms.py</summary>
+  <img src="/media/TestPip8/contactForms.png">
+  </details>
+
+  <details><summary>models.py</summary>
+  <img src="/media/TestPip8/contactModels.png">
+  </details>
+
+  <details><summary>urls.py</summary>
+  <img src="/media/TestPip8/contactUrls.png">
+  </details>
+
+  <details><summary>views.py</summary>
+  <img src="/media/TestPip8/contactViews.png">
+  </details>
+
+<br>
+
+### Home
+
+  <details><summary>urls.py</summary>
+  <img src="/media/TestPip8/homeUrls.png">
+  </details>
+
+  <details><summary>views.py</summary>
+  <img src="/media/TestPip8/homeViews.png">
+  </details>
+
+<br>
+
+### Newsletter
+  
+  <details><summary>admin.py</summary>
+  <img src="/media/TestPip8/newsAdmin.png">
+  </details>
+
+  <details><summary>apps.py</summary>
+  <img src="/media/TestPip8/newsApp.png">
+  </details>
+
+  <details><summary>models.py</summary>
+  <img src="/media/TestPip8/newsModels.png">
+  </details>
+
+  <details><summary>urls.py</summary>
+  <img src="/media/TestPip8/newsUrls.png">
+  </details>
+
+  <details><summary>views.py</summary>
+  <img src="/media/TestPip8/newsViews.png">
+  </details>
+
+  <details><summary>forms.py</summary>
+  <img src="/media/TestPip8/newsForms.png">
+  </details>
+
+<br>
+
+### Products
+
+  <details><summary>admin.py</summary>
+  <img src="/media/TestPip8/productAdmin.png">
+  </details>
+
+  <details><summary>forms.py</summary>
+  <img src="/media/TestPip8/profiForms.png">
+  </details>
+
+  <details><summary>models.py</summary>
+  <img src="/media/TestPip8/productModels.png">
+  </details>
+
+  <details><summary>urls.py</summary>
+  <img src="/media/TestPip8/productUrls.png">
+  </details>
+
+  <details><summary>views.py</summary>
+  <img src="/media/TestPip8/productViews.png">
+  </details>
+
+<br>
+
+### Profiles
+
+  <details><summary>forms.py</summary>
+  <img src="/media/TestPip8/profiForms.png">
+  </details>
+
+  <details><summary>models.py</summary>
+  <img src="/media/TestPip8/profiModels.png">
+  </details>
+
+  <details><summary>urls.py</summary>
+  <img src="/media/TestPip8/profiUrls.png">
+  </details>
+
+  <details><summary>views.py</summary>
+  <img src="/media/TestPip8/profiViews.png">
+  </details>
+
+<br>
+
+### SmartCCTV
+  
+  <details><summary>asgi.py</summary>
+  <img src="/media/TestPip8/smartASGI.png">
+  </details>
+
+  <details><summary>wsgi.py</summary>
+  <img src="/media/TestPip8/smartWSGI.png">
+  </details>
+
+  <details><summary>settings.py</summary>
+  <img src="/media/TestPip8/smartSettings.png">
+  </details>
+
+  <details><summary>urls.py</summary>
+  <img src="/media/TestPip8/smartUrls.png">
+  </details>
+
+  <details><summary>views.py</summary>
+  <img src="/media/TestPip8/smartViews.png">
+  </details>
+
+<br>
+
+### Testimonials
+  
+  <details><summary>admin.py</summary>
+  <img src="/media/TestPip8/testimonAdmin.png">
+  </details>
+
+  <details><summary>apps.py</summary>
+  <img src="/media/TestPip8/testimonApps.png">
+  </details>
+
+  <details><summary>models.py</summary>
+  <img src="/media/TestPip8/testimonModels.png">
+  </details>
+
+  <details><summary>urls.py</summary>
+  <img src="/media/TestPip8/testimonUrls.png">
+  </details>
+
+  <details><summary>views.py</summary>
+  <img src="/media/TestPip8/testimonViews.png">
+  </details>
+
+  <details><summary>forms.py</summary>
+  <img src="/media/TestPip8/testimonForms.png">
+  </details>
+
+<br>
+
+
 ## Lighthouse Testing
 Results of lighthouse testing on the site overall Performance 98 score ![lighthouse](https://github.com/Zaurtime/smart_cctv/assets/119350794/a2841614-29a7-4db4-bfa8-9ef981591097)
 
