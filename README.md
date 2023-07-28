@@ -424,6 +424,8 @@ The [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/) wa
 
 - one undefined variable Stripe which originates from an external script
 
+<br>
+
 <details><summary>countryfield.js</summary>
 <img src="/media/countryfieldJs.png">
 </details
