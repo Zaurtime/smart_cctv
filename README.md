@@ -395,10 +395,38 @@ OrderLineItem Model
 
 # Testing
 
-## CSS
-All css pages were run through the [w3 CSS Validator](https://jigsaw.w3.org/css-validator/). No errors were found.
-![cssValid](https://github.com/Zaurtime/smart_cctv/assets/119350794/d215d382-8a6b-4167-b418-ce25e8b182bb)
+### CSS Validation
 
+The [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate the CSS of the website.
+
+<details><summary>base.css</summary>
+<img src="/media/baseCSS.png">
+</details> 
+
+
+<details><summary>checkout.css</summary>
+<img src="/media/checkoutCSS.png">
+</details>
+
+<details><summary>profiles.css</summary>
+<img src="/media/profileCSS.png">
+</details
+
+<br>
+
+### JavaScript Validation
+
+[JSHint](https://jshint.com/) javaScript Validation Service was used to validate all javaScript files.
+
+<details><summary>stripe-elements.js</summary>
+<img src="/media/stripeElementsJs.png">
+</details
+
+- one undefined variable Stripe which originates from an external script
+
+<details><summary>countryfield.js</summary>
+<img src="/media/countryfieldJs.png">
+</details
  
 <br>
 
@@ -428,10 +456,6 @@ All css pages were run through the [w3 CSS Validator](https://jigsaw.w3.org/css-
 
 
 ### Checkout
-
-  <details><summary>admin.py</summary>
-  <img src="/media/TestPip8/checkoutAdmin.png">
-  </details>
 
   <details><summary>admin.py</summary>
   <img src="/media/TestPip8/checkoutAdmin.png">
