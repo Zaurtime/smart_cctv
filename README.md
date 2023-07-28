@@ -788,16 +788,16 @@ The [W3C Markup Validation Service](https://validator.w3.org/) was used to valid
 The [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate the CSS of the website.
 
 <details><summary>base.css</summary>
-<img src="docs/validation/css/base_css.jpg">
+<img src="/media/baseCSS.png">
 </details> 
 
 <details><summary>checkout.css</summary>
-<img src="docs/validation/css/checkout.css.jpg">
+<img src="/media/checkoutCSS.png">
 </details>
 
 <details><summary>profiles.css</summary>
-<img src="docs/validation/css/profile.css.jpg">
-</details
+<img src="/media/profileCSS.png">
+</details>
 
 
 ## Lighthouse
@@ -806,7 +806,7 @@ The [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/) wa
 
 <details><summary>Home</summary>
 - Desktop
-  <img src="/media">
+  <img src="/media/lightHome.png">
 </details>
 
 <br>
@@ -815,24 +815,7 @@ The [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/) wa
 
 <details><summary>All Products</summary>
 - Desktop
- <img src="/media">
-</details>
-
-<br>
-
-### Product details page
-
-<details><summary>Product details</summary>
-- Desktop
-  <img src="/media">
-
-<br>
-
-### Edit products page
-
-<details><summary>Edit products</summary>
-- Desktop
-  <img src="/media">
+ <img src="/media/lightProduct.png">
 </details>
 
 <br>
@@ -841,16 +824,7 @@ The [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/) wa
 
 <details><summary>Bag</summary>
 - Desktop
-  <img src="/media">
-</details>
-
-<br>
-
-### Checkout page
-
-<details><summary>Checkout</summary>
-- Desktop
-  <img src="/media">
+  <img src="/media/lightBag.png">
 </details>
 
 <br>
@@ -859,16 +833,16 @@ The [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/) wa
 
 <details><summary>Profile</summary>
 - Desktop
-  <img src="/media">
+  <img src="/media/lightProfile.png">
 </details>
 
 <br>
 
-### Post details page
+### Testimonials page
 
-<details><summary>Post details</summary>
+<details><summary>Testimonials</summary>
 - Desktop
-  <img src="/media">
+  <img src="/media/lightTestimon.png">
 </details>
 
 <br>
@@ -877,16 +851,7 @@ The [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/) wa
 
 <details><summary>Contact</summary>
 - Desktop
-  <img src="/media">
-</details>
-
-<br>
-
-### Logout page
-
-<details><summary>Logout</summary>
-- Desktop
-  <img src="/media">
+  <img src="/media/lightContact.png">
 </details>
 
 <br>
@@ -895,16 +860,7 @@ The [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/) wa
 
 <details><summary>Sign in</summary>
 - Desktop
-  <img src="/media">
-</details>
-
-<br>
-
-### Sign up page
-
-<details><summary>Sign up</summary>
-- Desktop
-  <img src="/media">
+  <img src="/media/lightLogin.png">
 </details>
 
 <br>
@@ -1061,14 +1017,12 @@ Functionality available only for website Admin or Authorised user by Admin
 
 <br>
 
-17. As a shopper I can add to wishlist some products so that I can come back to wishlist and buy interested products
+17. As a shopper I can add to bag some products so that I can come back to  and buy interested products
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Products details | Click heart icon under product image on product detail page | Product added to wishlist | Works as expected  |
+| Products details | Click product image on product detail page | Product added to bag | Works as expected  |
 | Products list page | Click heart icon on product card | Product added to wishlist | Works as expected  |
-| Wishlist | Click bag icon on item | Product added to bag | Works as expected  |
-| Wishlist | Click trash icon on item | Product removed form wishlist | Works as expected  |
 
 <br>
 
