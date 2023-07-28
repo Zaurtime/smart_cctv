@@ -800,8 +800,112 @@ The [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/) wa
 </details
 
 
-## Lighthouse Testing
-Results of lighthouse testing on the site overall Performance 98 score ![lighthouse](https://github.com/Zaurtime/smart_cctv/assets/119350794/a2841614-29a7-4db4-bfa8-9ef981591097)
+## Lighthouse
+
+### Home page
+
+<details><summary>Home</summary>
+- Desktop
+  <img src="/media">
+</details>
+
+<br>
+
+### Products page
+
+<details><summary>All Products</summary>
+- Desktop
+ <img src="/media">
+</details>
+
+<br>
+
+### Product details page
+
+<details><summary>Product details</summary>
+- Desktop
+  <img src="/media">
+
+<br>
+
+### Edit products page
+
+<details><summary>Edit products</summary>
+- Desktop
+  <img src="/media">
+</details>
+
+<br>
+
+### Bag page
+
+<details><summary>Bag</summary>
+- Desktop
+  <img src="/media">
+</details>
+
+<br>
+
+### Checkout page
+
+<details><summary>Checkout</summary>
+- Desktop
+  <img src="/media">
+</details>
+
+<br>
+
+### Profile page
+
+<details><summary>Profile</summary>
+- Desktop
+  <img src="/media">
+</details>
+
+<br>
+
+### Post details page
+
+<details><summary>Post details</summary>
+- Desktop
+  <img src="/media">
+</details>
+
+<br>
+
+### Contact page
+
+<details><summary>Contact</summary>
+- Desktop
+  <img src="/media">
+</details>
+
+<br>
+
+### Logout page
+
+<details><summary>Logout</summary>
+- Desktop
+  <img src="/media">
+</details>
+
+<br>
+
+### Sign in page
+
+<details><summary>Sign in</summary>
+- Desktop
+  <img src="/media">
+</details>
+
+<br>
+
+### Sign up page
+
+<details><summary>Sign up</summary>
+- Desktop
+  <img src="/media">
+</details>
 
 <br>
 
